@@ -10,7 +10,7 @@ This repository provides a comprehensive guide to migrating on-premises virtual 
 
 ## Architectural Diagram
 
-![awsmgn00](images/aws-vm-mig.png)
+![awsmgn00](images/awsmgndia.png)
 
 
 ## Migration Steps
@@ -31,17 +31,31 @@ This repository provides a comprehensive guide to migrating on-premises virtual 
    - Download the AWS Replication Agent from the [official AWS documentation](https://docs.aws.amazon.com/mgn/latest/ug/install-agent.html).
    - Install the agent on each on-premises VM you plan to migrate.
 
+
+![awsmgn01](images/vm01.png)
+
+
 4. **Monitor Data Replication:**
    - Use the Application Migration Service console to monitor replication progress.
    - Wait for the initial synchronization to complete before proceeding.
+
+![awsmgn01](images/awsmgn-01.png)
+![awsmgn02](images/awsmgn-02.png)
 
 5. **Launch Test Instances:**
    - After replication, launch test instances in AWS to verify successful migration.
    - Conduct user acceptance testing (UAT) to ensure applications are functioning correctly.
 
+![awsmgn04](images/awsmgn-04.png)
+
+
 6. **Finalize the Cutover:**
    - Once testing is successful, perform the cutover to the AWS environment.
    - Decommission the original on-premises VMs if they are no longer needed.
+
+![awsmgn05](images/awsmgn-05.png)
+
+
 
 ## Best Practices
 
