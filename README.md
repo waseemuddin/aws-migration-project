@@ -31,9 +31,14 @@ This repository provides a comprehensive guide to migrating on-premises virtual 
    - Download the AWS Replication Agent from the [official AWS documentation](https://docs.aws.amazon.com/mgn/latest/ug/install-agent.html).
    - Install the agent on each on-premises VM you plan to migrate.
 
-
 ![awsmgn01](images/vm01.png)
 
+```shell
+Exp:
+sudo wget -O ./aws-replication-installer-init https://aws-application-migration-service-us-east-1.s3.us-east-1.amazonaws.com/latest/linux/aws-replication-installer-init
+
+sudo chmod +x aws-replication-installer-init; sudo ./aws-replication-installer-init --region us-east-1
+```
 
 4. **Monitor Data Replication:**
    - Use the Application Migration Service console to monitor replication progress.
