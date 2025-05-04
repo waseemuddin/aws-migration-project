@@ -12,6 +12,8 @@ This repository provides a comprehensive guide to migrating on-premises virtual 
 
 ![awsmgn00](images/awsmgndia.png)
 
+## Architectural Diagram
+
 ![awsmgn-ardiagram](images/awsmgn-ardiagram.png)
 
 ## Migration Steps
