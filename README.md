@@ -1,4 +1,5 @@
-# AWS Application Migration Guide
+
+# AWS Cloud Migration 
 
 This repository provides a comprehensive guide to migrating on-premises virtual machines (VMs) to Amazon EC2 using the AWS Application Migration Service.
 
