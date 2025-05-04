@@ -10,7 +10,7 @@ This repository provides a comprehensive guide to migrating on-premises virtual 
 
 ## Architectural Diagram
 
-![aws-diagram01](images/aws-vm-mig.png)
+![awsmgn00](images/aws-vm-mig.png)
 
 
 ## Migration Steps
@@ -18,6 +18,10 @@ This repository provides a comprehensive guide to migrating on-premises virtual 
 1. **Initialize AWS Application Migration Service:**
    - Access the [AWS Application Migration Service Console](https://console.aws.amazon.com/mgn).
    - Set up the service for your AWS account.
+
+
+![awsmgn00](images/awsmgn0.png)
+
 
 2. **Configure the Staging Area:**
    - In your AWS Management Console, set up a staging area subnet within your VPC.
