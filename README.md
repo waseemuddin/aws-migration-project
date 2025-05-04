@@ -56,7 +56,6 @@ This repository provides a comprehensive guide to migrating on-premises virtual 
 ![awsmgn05](images/awsmgn-05.png)
 
 
-
 ## Best Practices
 
 - Avoid taking source servers offline or rebooting them until the cutover is complete.
